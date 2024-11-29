@@ -196,7 +196,7 @@ a {
 }
 
 .trend-garden {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend1.jpg");
+    background-image: url("/mq-diplom/images/trend1.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
@@ -204,7 +204,7 @@ a {
 }
 
 .trend-cheese {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend2.jpg");
+    background-image: url("/images/trend2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
@@ -212,7 +212,7 @@ a {
 }
 
 .trend-hike {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend3.jpg");
+    background-image: url("images/trend3.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
