@@ -1,0 +1,13 @@
+<svg id="Btn_Close" data-name="Btn Close" xmlns="http://www.w3.org/2000/svg" width="22.594" height="18.813" viewBox="0 0 22.594 18.813">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="M343.809,42.665H321.232V39.843h22.577v2.822Z" transform="translate(-321.219 -31.844)"/>
+  <path id="Shape_4_copy_2" data-name="Shape 4 copy 2" class="cls-1" d="M343.809,50.665H321.232V47.843h22.577v2.822Z" transform="translate(-321.219 -31.844)"/>
+  <path id="Shape_4_copy" data-name="Shape 4 copy" class="cls-1" d="M343.809,34.664H321.232V31.842h22.577v2.822Z" transform="translate(-321.219 -31.844)"/>
+</svg>

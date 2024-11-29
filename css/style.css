@@ -1,0 +1,1203 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: local("OpenSansRegular"),
+         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Regular.woff') format('woff'),
+         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: local("OpenSansBold"),
+         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Bold.woff') format('woff'),
+         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Bold.woff2') format('woff2'),
+         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'OpenSans', Arial, san-serif;
+}
+  
+  ul, p {
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+h1, h2, h3 {
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+ul {
+    padding: 0;
+    list-style: none;
+}
+  
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* МЕНЮ */
+.header {
+    width: 100%;
+    background-image: url('/mq-diplom/images/banner-mobile.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;
+    background-size: cover;
+    position: relative;
+}
+
+.header::before {
+    content:"";
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.header-wrap {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    padding-top: 30px;
+    position: relative;
+    z-index: 2; 
+}
+
+.burger-menu {
+    display: block;
+    width: 23px;
+    height: 20px;
+    fill: #fff;
+    margin-left: auto;
+}
+
+.menu-list {
+    display: none;
+}
+
+.logo-img {
+    display: block;
+    width: 82%;
+    padding: 175px 0 35px;
+    margin: auto;
+}
+
+.header-title {
+    font-size: 2.6rem;
+    line-height: 1.38;
+    color: #fff;
+    max-width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: inherit;
+    font-weight: bold;
+    padding-bottom: 208px;
+    margin: auto;
+}
+
+
+/* СЕЙЧАС В ТРЕНДЕ */
+
+.content {
+    width: 100%;
+
+}
+
+.trend-cards {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.trend-head {
+    font-size: 1.6rem;
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #0f0d0e;
+    min-width: 46%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trend-head::after{
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: #e1d9bd;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.trends {
+    display: flex;
+    margin-top: 24px;
+    gap: 3px;
+    width: 100%;
+    flex-direction: column;
+}
+
+.trends-item {
+    padding: 16px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position: relative;
+}
+
+.trends-item::before {
+    content:"";
+    display: block;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+    z-index: 1;
+}
+
+.card-trends {
+    box-sizing: border-box;
+    border: 3px solid #b59f5b;
+    position: relative;
+    z-index: 2;
+    padding: 30px 28px 30px 20px;
+}
+
+.trend-garden {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend1.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;
+    background-size: cover;
+}
+
+.trend-cheese {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend2.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;
+    background-size: cover;
+}
+
+.trend-hike {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend3.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;
+    background-size: cover;   
+}
+
+.trend-lemons {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend4.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #000;
+    background-size: cover;   
+}
+
+.trends-link {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 13px;
+}
+
+.card-item {
+    color: #b59f5b;
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.card-content {
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 1.7rem;
+}
+
+
+/* ПОСТЫ */
+
+.content {
+    margin-top: 45px;
+}
+
+.content {
+    width: 100%;
+
+}
+
+.post:not(:last-child) {
+    margin-bottom: 33px;
+}
+
+.post-image {
+    width: 100%;
+    display: block;
+}
+
+.post-container {
+    margin-top: 17px;
+}
+
+.post-categories {
+    display: flex;
+    margin-bottom: 8px;
+    gap: 20px;
+    line-height: 1;
+}
+
+.post-category {
+    font-family: "OpenSans", Arial, san-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #b59f5b;
+    font-weight: bold;
+}
+
+.post-category:hover {
+    text-decoration: #e5decb underline;
+}
+
+.post-title {
+    font-family: "OpenSans", Arial, san-serif;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-weight: bold;
+}
+
+.post-title:hover {
+    color: #b59f5b;
+}
+
+.date-content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 20px;
+}
+
+.post-date {
+    color: #888888;
+    font-size: 1.2rem;
+}
+
+.post-author {
+    font-family: "OpenSans", Arial, san-serif;
+    color: #000;
+    font-size: 1.2rem; 
+    font-weight: bold;
+    font-style: normal;
+}
+
+.post-text > p {
+    margin-top: 0;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+
+.post-text > p:not(:first-child) {
+    margin-top: 10px;
+}
+
+.post-text > p:last-child {
+    padding-bottom: 25px;
+    border-bottom: 3px solid #eeeeee; 
+}
+
+/* КОЛОНКА СЛЕВА */
+
+.left-column {
+margin-top: 44px;
+}
+
+.title-new-posts {
+    font-family: "OpenSans", Arial, san-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.title-new-posts::after{
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: #e1d9bd;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.new-post-wrap {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 22px;
+}
+
+.new-post-container {
+    margin-top: 23px;
+}
+
+.new-post-image {
+    display: block;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.new-post-date {
+    display: block;
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.title-new-post-link {
+    font-family: "OpenSans", Arial, san-serif;
+    font-size: 1.4rem;
+    line-height: 1.28;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+/* ФОРМЫ */
+
+.sidebar-newsletter-container:nth-child(n+2) {
+    margin-top: 44px;
+}
+
+.form-content {
+    width: 100%;
+    min-height: 48px;
+}
+
+.form-content-group {
+    display: flex;
+    margin-top: 60px;
+}
+
+.search-button {
+    background-color: #b59f5b;
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/search.svg");
+    background-size: 18px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 48px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #323232;
+} 
+
+.search-field {
+    flex-grow: 1;
+    border: none;
+    background-color: #f4f7f6;
+    font-family: inherit;
+    color: #000;
+    font-size: 1.3rem;
+    padding-left: 19px;
+}
+
+.search-field:focus {
+    border-bottom: 1px solid #b59f5b;
+}
+
+.search {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.field-email {
+    border: none;
+    box-sizing: border-box;
+    margin-top: 23px;
+    background-color: #f4f7f6;
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: #000;
+    padding-left: 19px;
+}
+  
+.field-email:focus {
+    border-bottom: 1px solid #b59f5b;
+}
+
+.button-email {
+    border: none;
+    margin-top: 17px;
+    background-color: #b59f5b;
+    font-family: "OpenSans", Arial, sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+  
+.button-email:hover {
+    background-color: #323232;
+}
+
+
+/* ТЕГИ */
+.tags-list {
+    width: 100%;
+    margin-top: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.tags-list-item {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #0f0d0e; 
+    font-weight: bold;
+}
+
+.tags-link-tag-links {
+    display: block;
+    border: 3px solid #eeeeee;
+    padding: 5px 13px;
+}
+
+.tags-link-tag-links:hover {
+    border: 3px solid #b59f5b;
+}
+
+.categores-list {
+    margin-top: 23px;
+}
+
+.categores-list-item:nth-child(n+2) {
+    margin-top: 9px;
+}
+
+.categores-list-item {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #eeeeee;   
+}
+
+
+/* ТЕМЫ */
+.categores-link {
+    margin-right: 5px;
+}
+
+.categores-link:hover {
+    color: #b59f5b;
+}
+
+.categores-index {
+    display: inline-block;
+    vertical-align: super;
+    font-size: 1.2rem;
+    color: #b59f5b;
+    line-height: 1;
+}
+
+/* Товары */
+.products {
+    margin-top: 44px;
+}
+
+.title-products {
+    font-family: "OpenSans", Arial, san-serif;
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 1;
+    font-weight: bold;
+}
+
+.title-products::after{
+    content: "";
+    display: block;
+    width: 66px;
+    height: 3px;
+    background-color: #e1d9bd;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goods {
+    margin-top: 25px;
+    width: 100%;
+}
+
+.goods-img {
+    width: 87%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goods-object {
+    display: block;
+    width: 100%;
+}
+
+.good-card {
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: -35px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 52px 21px 26px 20px;
+    border: 3px solid #b59f5b;
+}
+
+.good-title {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    color: #0f0d0e;
+    font-weight: bold;
+}
+
+.goods-content {
+    margin-top: 2px;
+    font-size: 1.5rem;
+    line-height: 1.46;
+    color: #0f0d0e;
+}
+
+.goods-conteiner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.goods-link {
+    color: #b59f5b;
+    cursor: pointer;
+}
+
+.goods-link:hover {
+    text-decoration: underline;
+}
+
+.in-shop {
+    width: 50%;
+    border: none;
+    font-weight: bold;
+    padding: 14px;
+    box-sizing: border-box;
+    background-color: #b59f5b;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.in-shop:hover {
+    background-color: #323232;
+}
+ 
+.goods-price {
+    width: 25%;
+    color: #0f0d0e;
+}
+
+.goods-price-gross {
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.goods-price-mini {
+    font-size: 1.57rem;
+    font-weight: bold;
+}
+
+/* Подвал */
+.footer {
+    margin-top: 42px;
+}
+  
+.footer-list {
+    display: flex;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    justify-content: center;
+    background-color: #f4f7f6;
+    gap: 30px;
+}
+  
+.footer-link {
+    width: 20px;
+    height: 20px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+}
+  
+.footer-link-dribbble {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/001-dribbble.svg");
+}
+  
+.footer-link-pinterest {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/002-pinterest.svg");
+}
+  
+.footer-link-tumblr {
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/003-tumblr.svg");
+}
+  
+.copyright {
+    display: flex;
+    margin-bottom: 41px;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    color: #999999;
+}
+
+/* POP-UP */
+.btn {
+    display: block;
+    box-sizing: border-box;
+    background-color: #b59f5b;
+    font-size: 1.4rem;
+    width: 100%;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #323232; 
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 3;
+}
+
+.popup-content {
+    position: relative;
+    margin: auto;
+    background: #fff;
+    width: 80%;
+    padding: 35px 20px;
+}
+
+.popup-close {
+    position: absolute;
+    right: 0;
+    top: -22px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.form-group {
+    margin-top: 20px;
+}
+
+.popup-select {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 48px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    color: #939594;
+    background-color: #f4f7f6;
+    font-size: 1.3rem;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-arrows.svg");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 1.3rem;
+}
+
+.form-hint {
+    display: block;
+    font-size: 1.5rem;
+    color: #0f0d0e;
+    margin-bottom: 5px;
+}
+
+.radio-group-text::before {
+	content: "";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-empty-circle.svg");
+	background-repeat: no-repeat;
+	background-position: center  center;
+	background-size: 25px;
+}
+
+.radio-group-text::before {
+  display: inline-block;
+  vertical-align: middle;
+}     
+
+.radio-group-text::before {
+  margin-right: 8px;
+}
+
+.radio-group {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.radio-group:nth-of-type(n+2) {
+  margin-left: 15px;
+}
+
+.radio:checked ~ .radio-group-text::before {
+	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-circle.svg");
+}
+
+.radio {
+    position: absolute;
+    clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    width: 1px;
+}
+
+.textarea {
+    width: 100%;
+    min-height: 100px;
+    max-height: 200px;
+    border: none;
+    color: #939594;
+    background-color: #f4f7f6;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    resize: none;
+}
+
+/* ЛАНДШАФТ */
+@media (orientation: landscape) and (max-width: 640px) {
+    .trends {
+        flex-wrap: wrap;
+        max-height: 467px;
+    }
+
+    .trends-item {
+        width: calc(100% / 2 - 34px);
+        min-width: 165px;
+    }
+
+    .card-content {
+        line-height: 2.5rem;
+    }
+}
+
+/* ПЛАНШЕТ */
+@media (min-width: 768px) {
+    .header {
+        width: 100%;
+        background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/banner-bg-tablet.jpg");
+        background-repeat: no-repeat;
+        background-color: #000;
+        background-position: center center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .header-wrap {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 35px;
+        padding-right: 35px;
+        box-sizing: border-box;
+    }
+
+    .header-container {
+        padding-top: 30px;
+        box-sizing: border-box;
+    }
+
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .logo {
+        padding: 0;
+        margin: 0;
+    }
+
+    .logo-img {
+        display: block;
+        width: 158px;
+        padding: 0;
+    }
+
+    .header-title {
+        line-height: 1.38;
+        text-align: center;
+        font-size: 4rem;
+        max-width: 640px;
+        margin: auto;
+        padding: 90px 0 110px;
+    } 
+
+    .trend-cards {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .trend-head {
+        font-size: 1.8rem;
+    }
+
+    .trends {
+        max-height: 495px;
+        flex-wrap: wrap;
+    }
+
+    .trends-item {
+        min-height: 213px;
+        width: calc(100% / 2 - 35px);
+    }
+
+    .card-content {
+        line-height: 1.29;
+        font-size: 1.7rem;
+    }
+
+    .title-new-posts {
+        font-size: 1.4rem;
+    }
+
+    .posts-wrap {
+        display: flex;
+        gap: 4%;
+    }
+
+    .post-title {
+        font-size: 1.7rem;
+        line-height: 1.29;
+    }
+
+    .post-text > p {
+        font-size: 1.5rem;
+    }
+
+    .left-column {
+        width: 273px;
+        flex-shrink: 0;
+        margin-top: 0;
+    }
+
+    .all-posts {
+        flex-grow: 1;
+    }
+
+    .title-products {
+        font-size: 1.8rem;
+    }
+
+    .products {
+        font-size: 1.8rem;
+    }
+
+    .good-title {
+        font-size: 1.8rem;
+    }
+
+    .goods-content{
+        font-size: 1.5rem;
+    }
+
+    .goods-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 23px;
+        justify-content: space-between;
+        margin-top: 30px;
+    }
+
+    .goods {
+        width: calc((100% - 23px) / 2);
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .good-card {
+        flex-grow: 1;
+    }
+
+    .popup-content {
+        max-width: 260px;
+    }
+}
+
+/* ЛАНДШАФТ > 641px */
+@media (min-width: 641px) and (orientation: landscape) {
+    .trends {
+        flex-direction: row;
+    }
+
+    .trends-item {
+        width: calc(100% / 4 - 36px);
+
+    }
+
+    .card-item {
+        font-size: 1rem;
+    }
+
+    .card-content {
+        font-size: 1.4rem;
+    }
+
+    .card-trends {
+        padding: 15px 10px;
+    }
+}
+
+/* "ДЕСКТОП" */
+@media (min-width: 1200px) and (orientation: landscape) {
+    .header-wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+        max-width: 1200px;
+    }
+
+    .header {
+        width: 100%;
+        background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/banner-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-color: #000;
+        background-size: cover;
+        position: relative;
+    }
+
+    .menu {
+        flex-direction: row;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .menu-list {
+        display: flex;
+        gap: 36px;
+    }
+
+    .menu-link {  
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 13px;
+    }
+      
+    .logo-img {
+        display: block;
+        width: 180px;
+    }
+
+    .header-title {
+        font-size: 4.5rem;
+        line-height: 1.67;
+        text-align: center;
+        max-width: 725px;
+        margin: auto;
+        padding: 100px 0 125px;
+    } 
+
+    /* СЕЙЧАС В ТРЕНДЕ */
+
+    .trend-cards {
+        margin-top: 63px;
+        margin-bottom: 66px;
+    }
+
+    .trend-head {
+        font-size: 2rem;
+    }
+
+    .trends {
+        flex-direction: row;
+        min-height: 280px;
+    }
+
+    .trends-item {
+        padding: 20px;
+        height: 280px;
+        width: calc(100% / 4 - 43px);
+    }
+    
+    .trends-link {
+        margin-bottom: 8px;
+    }
+
+    .card-content {
+        font-size: 2rem;
+        line-height: 1.2;
+    }
+
+    .card-item {
+        font-size: 1.2rem;
+    }
+
+    .card-trends {
+        padding: 30px 28px;
+    }
+
+    /* блок статей */
+    .posts-wrap {
+        gap: 125px;
+    }
+
+    .post {
+        display: flex;
+    }
+
+    .post-container {
+        margin-left: 30px;
+    }
+
+    .post-title {
+        margin-bottom: 30px;
+        font-size: 2rem;
+    }
+    
+    .post:not(:last-child) {
+        margin-bottom: 60px;
+    }
+
+    .date-content {
+        margin-bottom: 50px;
+    }
+      
+    .post-image {
+        width: 380px;
+        display: block;
+    }
+
+    .post-text > p {
+        font-size: 1.5rem;
+        line-height: 1.47;
+    }
+
+    .post-text > p:last-child {
+        border-bottom: none;
+    }
+
+    .post-container {
+        margin-top: 0;
+    }
+
+    .goods-list {
+        flex-wrap: nowrap;
+    }
+
+    /* КОЛОНКА СЛЕВА */
+
+    .left-column {
+        width: 275px;
+    }
+
+    .new-post-container {
+        margin-top: 30px;
+    }
+
+    .sidebar-newsletter-container:nth-child(n+2) {
+        margin-top: 60px;
+    }
+
+    .categores-list-item:nth-child(n+2) {
+        margin-top: 19px;
+    }
+
+    /* ТОВАРЫ */
+    .products {
+        margin-top: 67px;      
+    }
+
+    .title-products{
+        font-size: 2rem;
+    }
+
+    .good-title {
+        font-size: 2rem;
+    }
+}
