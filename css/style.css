@@ -53,7 +53,7 @@ a {
 /* МЕНЮ */
 .header {
     width: 100%;
-    background-image: url('..images/banner-mobile.jpg');
+    background-image: url("/../images/banner-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
