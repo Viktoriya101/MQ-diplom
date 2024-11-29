@@ -1,9 +1,9 @@
 @font-face {
     font-family: 'OpenSans';
     src: local("OpenSansRegular"),
-         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Regular.woff') format('woff'),
-         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Regular.woff2') format('woff2'),
-         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Regular.ttf') format('truetype');
+         url('/mq-diplom/fonts/OpenSans-Regular.woff') format('woff'),
+         url('/mq-diplom/fonts/OpenSans-Regular.woff2') format('woff2'),
+         url('/mq-diplom/fonts/OpenSans-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
     font-display: swap;
@@ -12,9 +12,9 @@
 @font-face {
     font-family: 'OpenSans';
     src: local("OpenSansBold"),
-         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Bold.woff') format('woff'),
-         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Bold.woff2') format('woff2'),
-         url('file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/fonts/OpenSans-Bold.ttf') format('truetype');
+         url('/mq-diplom/fonts/OpenSans-Bold.woff') format('woff'),
+         url('/mq-diplom/fonts/OpenSans-Bold.woff2') format('woff2'),
+         url('/mq-diplom/fonts/OpenSans-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
     font-display: swap;
@@ -53,7 +53,7 @@ a {
 /* МЕНЮ */
 .header {
     width: 100%;
-    background-image: url(images/banner-mobile.jpg);
+    background-image: url("/mq-diplom/images/banner-mobile.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
@@ -204,7 +204,7 @@ a {
 }
 
 .trend-cheese {
-    background-image: url("/images/trend2.jpg");
+    background-image: url("/mq-diplom/images/trend2.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
@@ -212,7 +212,7 @@ a {
 }
 
 .trend-hike {
-    background-image: url("images/trend3.jpg");
+    background-image: url("/mq-diplom/images/trend3.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
@@ -220,7 +220,7 @@ a {
 }
 
 .trend-lemons {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/trend4.jpg");
+    background-image: url("/mq-diplom/images/trend4.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-color: #000;
@@ -687,15 +687,15 @@ margin-top: 44px;
 }
   
 .footer-link-dribbble {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/001-dribbble.svg");
+    background-image: url("/mq-diplom/svg/001-dribbble.svg");
 }
   
 .footer-link-pinterest {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/002-pinterest.svg");
+    background-image: url("/mq-diplom/svg/002-pinterest.svg");
 }
   
 .footer-link-tumblr {
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/003-tumblr.svg");
+    background-image: url("/mq-diplom/svg/003-tumblr.svg");
 }
   
 .copyright {
@@ -778,7 +778,7 @@ margin-top: 44px;
     font-size: 1.3rem;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-arrows.svg");
+    background-image: url("/mq-diplom/svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 1.3rem;
@@ -796,7 +796,7 @@ margin-top: 44px;
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-empty-circle.svg");
+	background-image: url("/mq-diplom/svg/form-empty-circle.svg");
 	background-repeat: no-repeat;
 	background-position: center  center;
 	background-size: 25px;
@@ -821,7 +821,7 @@ margin-top: 44px;
 }
 
 .radio:checked ~ .radio-group-text::before {
-	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-circle.svg");
+	background-image: url("/mq-diplom/svg/form-circle.svg");
 }
 
 .radio {
@@ -868,7 +868,7 @@ margin-top: 44px;
 @media (min-width: 768px) {
     .header {
         width: 100%;
-        background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/banner-bg-tablet.jpg");
+        background-image: url("/mq-diplom/images/banner-bg-tablet.jpg");
         background-repeat: no-repeat;
         background-color: #000;
         background-position: center center;
@@ -1042,7 +1042,7 @@ margin-top: 44px;
 
     .header {
         width: 100%;
-        background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/images/banner-bg.jpg");
+        background-image: url("/mq-diplom/images/banner-bg.jpg");
         background-repeat: no-repeat;
         background-position: center center;
         background-color: #000;
