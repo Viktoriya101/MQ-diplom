@@ -55,7 +55,7 @@ a {
     width: 100%;
     background-image: url("/mq-diplom/images/banner-mobile.jpg");
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     background-color: #000;
     background-size: cover;
     position: relative;
@@ -152,14 +152,14 @@ a {
     width: 66px;
     height: 3px;
     background-color: #e1d9bd;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
   }
 
 .trends {
     display: flex;
-    margin-top: 24px;
+    margin-top: 31px;
     gap: 3px;
     width: 100%;
     flex-direction: column;
@@ -275,9 +275,9 @@ a {
 
 .post-categories {
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 3px;
     gap: 20px;
-    line-height: 1;
+    line-height: 1.09;
 }
 
 .post-category {
@@ -351,17 +351,17 @@ margin-top: 44px;
     text-transform: uppercase;
     font-size: 1.6rem;
     text-align: center;
-    line-height: 1;
+    line-height: 0.6;
     font-weight: bold;
 }
 
 .title-new-posts::after{
     content: "";
     display: block;
-    width: 66px;
+    width: 63px;
     height: 3px;
     background-color: #e1d9bd;
-    margin-top: 10px;
+    margin-top: 14px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -493,7 +493,7 @@ margin-top: 44px;
     margin-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 6px;
 }
 
 .tags-list-item {
@@ -593,7 +593,7 @@ margin-top: 44px;
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    margin-top: -35px;
+    margin-top: -67px;
     margin-left: auto;
     margin-right: auto;
     padding: 52px 21px 26px 20px;
@@ -618,7 +618,7 @@ margin-top: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 23px;
 }
 
 .goods-link {
@@ -659,13 +659,13 @@ margin-top: 44px;
 }
 
 .goods-price-mini {
-    font-size: 1.57rem;
+    font-size: 2.1rem;
     font-weight: bold;
 }
 
 /* Подвал */
 .footer {
-    margin-top: 42px;
+    margin-top: 66px;
 }
   
 .footer-list {
@@ -674,7 +674,7 @@ margin-top: 44px;
     padding-bottom: 31px;
     justify-content: center;
     background-color: #f4f7f6;
-    gap: 30px;
+    gap: 60px;
 }
   
 .footer-link {
@@ -703,7 +703,7 @@ margin-top: 44px;
     margin-bottom: 41px;
     font-size: 1.2rem;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 70px;
     font-weight: bold;
     color: #999999;
 }
@@ -885,7 +885,7 @@ margin-top: 44px;
     }
 
     .header-container {
-        padding-top: 30px;
+        padding-top: 27px;
         box-sizing: border-box;
     }
 
@@ -951,7 +951,7 @@ margin-top: 44px;
 
     .post-title {
         font-size: 1.7rem;
-        line-height: 1.29;
+        line-height: 1.31;
     }
 
     .post-text > p {
@@ -1035,7 +1035,7 @@ margin-top: 44px;
 /* "ДЕСКТОП" */
 @media (min-width: 1200px) and (orientation: landscape) {
     .header-wrap {
-        padding-left: 15px;
+        padding-left: 17px;
         padding-right: 15px;
         max-width: 1200px;
     }
@@ -1060,7 +1060,7 @@ margin-top: 44px;
 
     .menu-list {
         display: flex;
-        gap: 36px;
+        gap: 35px;
     }
 
     .menu-link {  
@@ -1080,13 +1080,13 @@ margin-top: 44px;
         text-align: center;
         max-width: 725px;
         margin: auto;
-        padding: 100px 0 125px;
+        padding: 103px 0 125px;
     } 
 
     /* СЕЙЧАС В ТРЕНДЕ */
 
     .trend-cards {
-        margin-top: 63px;
+        margin-top: 59px;
         margin-bottom: 66px;
     }
 
@@ -1119,7 +1119,7 @@ margin-top: 44px;
     }
 
     .card-trends {
-        padding: 30px 28px;
+        padding: 33px 28px;
     }
 
     /* блок статей */
@@ -1141,11 +1141,11 @@ margin-top: 44px;
     }
     
     .post:not(:last-child) {
-        margin-bottom: 60px;
+        margin-bottom: 61px;
     }
 
     .date-content {
-        margin-bottom: 50px;
+        margin-bottom: 45px;
     }
       
     .post-image {
@@ -1173,7 +1173,7 @@ margin-top: 44px;
     /* КОЛОНКА СЛЕВА */
 
     .left-column {
-        width: 275px;
+        width: 273px;
     }
 
     .new-post-container {
@@ -1181,7 +1181,7 @@ margin-top: 44px;
     }
 
     .sidebar-newsletter-container:nth-child(n+2) {
-        margin-top: 60px;
+        margin-top: 62px;
     }
 
     .categores-list-item:nth-child(n+2) {
@@ -1190,7 +1190,7 @@ margin-top: 44px;
 
     /* ТОВАРЫ */
     .products {
-        margin-top: 67px;      
+        margin-top: 62px;      
     }
 
     .title-products{
