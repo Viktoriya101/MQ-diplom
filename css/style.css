@@ -863,6 +863,10 @@ margin-top: 44px;
     .card-content {
         line-height: 2.5rem;
     }
+
+goods-object {
+    height: 87%;
+}
 }
 
 /* ПЛАНШЕТ */
