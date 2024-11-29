@@ -864,9 +864,9 @@ margin-top: 44px;
         line-height: 2.5rem;
     }
 
-goods-object {
+    .goods-object {
     height: 87%;
-}
+    }
 }
 
 /* ПЛАНШЕТ */
