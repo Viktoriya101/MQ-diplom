@@ -579,7 +579,6 @@ margin-top: 44px;
 }
 
 .goods-img {
-	height: 87%;
     width: 87%;
     margin-left: auto;
     margin-right: auto;
@@ -863,10 +862,6 @@ margin-top: 44px;
 
     .card-content {
         line-height: 2.5rem;
-    }
-
-    .goods-object {
-    height: 87%;
     }
 }
 
