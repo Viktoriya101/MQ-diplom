@@ -674,7 +674,7 @@ margin-top: 44px;
     padding-bottom: 31px;
     justify-content: center;
     background-color: #f4f7f6;
-    gap: 60px;
+    gap: 23px;
 }
   
 .footer-link {
@@ -987,7 +987,7 @@ margin-top: 44px;
     .goods-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 23px;
+        gap: 62px;
         justify-content: space-between;
         margin-top: 30px;
     }
