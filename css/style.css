@@ -585,7 +585,7 @@ margin-top: 44px;
 }
 
 .goods-object {
-    height: 87%;
+    /*height: 87%;*/
     display: block;
     width: 100%;
 }
@@ -863,12 +863,6 @@ margin-top: 44px;
     .card-content {
         line-height: 2.5rem;
     }
-
-	.goods-object {
-    height: 87%;
-    display: block;
-    width: 100%;
-	}
 }
 
 /* ПЛАНШЕТ */
@@ -1006,12 +1000,6 @@ margin-top: 44px;
         margin-top: 0;
     }
 
-	.goods-object {
-    height: 87%;
-    display: block;
-    width: 100%;
-	}
-
     .good-card {
         flex-grow: 1;
     }
@@ -1042,12 +1030,6 @@ margin-top: 44px;
 
     .card-trends {
         padding: 15px 10px;
-    }
-
-    .goods-object {
-    height: 87%;
-    display: block;
-    width: 100%;
     }
 }
 
@@ -1187,6 +1169,10 @@ margin-top: 44px;
 
     .goods-list {
         flex-wrap: nowrap;
+    }
+
+    .goods-object {
+        height: 87%;
     }
 
     /* КОЛОНКА СЛЕВА */
