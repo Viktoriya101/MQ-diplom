@@ -863,6 +863,12 @@ margin-top: 44px;
     .card-content {
         line-height: 2.5rem;
     }
+
+	.goods-object {
+    height: 87%;
+    display: block;
+    width: 100%;
+	}
 }
 
 /* ПЛАНШЕТ */
@@ -999,6 +1005,12 @@ margin-top: 44px;
         flex-direction: column;
         margin-top: 0;
     }
+
+	.goods-object {
+    height: 87%;
+    display: block;
+    width: 100%;
+	}
 
     .good-card {
         flex-grow: 1;
