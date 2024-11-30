@@ -1031,6 +1031,12 @@ margin-top: 44px;
     .card-trends {
         padding: 15px 10px;
     }
+
+    .goods-object {
+    height: 87%;
+    display: block;
+    width: 100%;
+    }
 }
 
 /* "ДЕСКТОП" */
