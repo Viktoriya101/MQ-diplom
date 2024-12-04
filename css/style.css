@@ -1132,6 +1132,8 @@ margin-top: 44px;
 
     .left-column {
         width: 275px;
+	margin-top: 0;
+	
     }
 
     .new-post-container {
