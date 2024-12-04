@@ -82,7 +82,7 @@ a {
 }
 
 .header-container {
-    padding-top: 30px;
+    padding-top: 27px;
     position: relative;
     z-index: 2; 
     
@@ -146,14 +146,14 @@ a {
     width: 66px;
     height: 3px;
     background-color: #e1d9bd;
-    margin-top: 10px;
+    margin-top: 8px;
     margin-left: auto;
     margin-right: auto;
   }
 
 .trends {
     display: flex;
-    margin-top: 24px;
+    margin-top: 28px;
     gap: 3px;
     width: 100%;
     flex-direction: column;
@@ -187,7 +187,7 @@ a {
     border: 3px solid #b59f5b;
     position: relative;
     z-index: 2;
-    padding: 30px 28px 30px 20px;
+    padding: 32px 30px 31px 31px;
 }
 
 .trend-garden {
@@ -224,7 +224,7 @@ a {
 
 .trends-link {
     display: flex;
-    gap: 10px;
+    gap: 17px;
     margin-bottom: 13px;
 }
 
@@ -997,8 +997,8 @@ margin-top: 44px;
 @media (min-width: 1200px) {
     .header-wrap {
         max-width: 1200px;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 23px;
+        padding-right: 23px;
     }
 
     .header {
@@ -1023,7 +1023,8 @@ margin-top: 44px;
 
     .menu-list {
         display: flex;
-        gap: 36px;
+        gap: 34px;
+	padding-top: 5px;
     }
 
     .menu-link {
@@ -1043,13 +1044,13 @@ margin-top: 44px;
         line-height: 1.67;
         text-align: center;
         margin: auto;
-        padding: 100px 0 125px;
+        padding: 102px 0 125px;
     } 
 
     /* блок в тренде */
 
     .trend-cards {
-        margin-top: 63px;
+        margin-top: 55px;
         margin-bottom: 66px;
     }
 
@@ -1065,17 +1066,17 @@ margin-top: 44px;
 
     .trends-item {
         padding: 20px;
-        min-height: 280px;
+        min-height: 315px;
         width: calc((100% - 9px) / 4);
     }
     
     .trends-link {
-        margin-bottom: 8px;
+        margin-bottom: 5px;
     }
 
     .card-content {
         font-size: 2rem;
-        line-height: 1.2;
+        line-height: 1.3em;
     }
 
     /* блок статей */
