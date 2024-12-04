@@ -50,12 +50,12 @@ a {
     text-decoration: none;
 }
 
-/* МЕНЮ */
+/* Стили шапки */
 .header {
     width: 100%;
     background-image: url("/mq-diplom/images/banner-mobile.jpg");
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-color: #000;
     background-size: cover;
     position: relative;
@@ -85,6 +85,7 @@ a {
     padding-top: 30px;
     position: relative;
     z-index: 2; 
+    
 }
 
 .burger-menu {
@@ -99,10 +100,9 @@ a {
     display: none;
 }
 
-.logo-img {
+.logo_img {
     display: block;
     width: 82%;
-    padding: 175px 0 35px;
     margin: auto;
 }
 
@@ -119,13 +119,7 @@ a {
     margin: auto;
 }
 
-
-/* СЕЙЧАС В ТРЕНДЕ */
-
-.content {
-    width: 100%;
-
-}
+/* Блок - Сейчас в тренде */
 
 .trend-cards {
     margin-top: 40px;
@@ -152,14 +146,14 @@ a {
     width: 66px;
     height: 3px;
     background-color: #e1d9bd;
-    margin-top: 5px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
   }
 
 .trends {
     display: flex;
-    margin-top: 31px;
+    margin-top: 24px;
     gap: 3px;
     width: 100%;
     flex-direction: column;
@@ -172,6 +166,7 @@ a {
     flex-direction: column;
     justify-content: end;
     position: relative;
+    box-sizing: border-box;
 }
 
 .trends-item::before {
@@ -248,14 +243,14 @@ a {
     line-height: 1.7rem;
 }
 
-
-/* ПОСТЫ */
+/* Основной контент */
+/* Статьи */
 
 .content {
     margin-top: 45px;
 }
 
-.content {
+.page {
     width: 100%;
 
 }
@@ -275,9 +270,9 @@ a {
 
 .post-categories {
     display: flex;
-    margin-bottom: 3px;
+    margin-bottom: 8px;
     gap: 20px;
-    line-height: 1.09;
+    line-height: 1;
 }
 
 .post-category {
@@ -340,7 +335,7 @@ a {
     border-bottom: 3px solid #eeeeee; 
 }
 
-/* КОЛОНКА СЛЕВА */
+/* Боковая колонка */
 
 .left-column {
 margin-top: 44px;
@@ -351,17 +346,17 @@ margin-top: 44px;
     text-transform: uppercase;
     font-size: 1.6rem;
     text-align: center;
-    line-height: 0.6;
+    line-height: 1;
     font-weight: bold;
 }
 
 .title-new-posts::after{
     content: "";
     display: block;
-    width: 63px;
+    width: 66px;
     height: 3px;
     background-color: #e1d9bd;
-    margin-top: 14px;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -372,7 +367,7 @@ margin-top: 44px;
     margin-top: 22px;
 }
 
-.new-post-container {
+.new-post-containerv {
     margin-top: 23px;
 }
 
@@ -399,7 +394,7 @@ margin-top: 44px;
     font-weight: bold;
 }
 
-/* ФОРМЫ */
+/* Формочки */
 
 .sidebar-newsletter-container:nth-child(n+2) {
     margin-top: 44px;
@@ -430,7 +425,7 @@ margin-top: 44px;
     background-color: #323232;
 } 
 
-.search-field {
+.search_field {
     flex-grow: 1;
     border: none;
     background-color: #f4f7f6;
@@ -440,7 +435,7 @@ margin-top: 44px;
     padding-left: 19px;
 }
 
-.search-field:focus {
+.search_field:focus {
     border-bottom: 1px solid #b59f5b;
 }
 
@@ -486,14 +481,13 @@ margin-top: 44px;
     background-color: #323232;
 }
 
-
-/* ТЕГИ */
+/* Теги */
 .tags-list {
     width: 100%;
     margin-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    gap: 6px;
+    gap: 10px;
 }
 
 .tags-list-item {
@@ -531,7 +525,7 @@ margin-top: 44px;
 }
 
 
-/* ТЕМЫ */
+/* Темы */
 .categores-link {
     margin-right: 5px;
 }
@@ -548,7 +542,7 @@ margin-top: 44px;
     line-height: 1;
 }
 
-/* Товары */
+/* Наши изделия */
 .products {
     margin-top: 44px;
 }
@@ -593,7 +587,7 @@ margin-top: 44px;
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    margin-top: -30px;
+    margin-top: -35px;
     margin-left: auto;
     margin-right: auto;
     padding: 52px 21px 26px 20px;
@@ -618,7 +612,7 @@ margin-top: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 23px;
+    margin-top: 25px;
 }
 
 .goods-link {
@@ -633,13 +627,13 @@ margin-top: 44px;
 .in-shop {
     width: 50%;
     border: none;
-    font-weight: bold;
-    padding: 14px;
-    box-sizing: border-box;
     background-color: #b59f5b;
     font-size: 1.4rem;
     text-transform: uppercase;
     color: #fff;
+    font-weight: bold;
+    padding: 14px;
+    box-sizing: border-box;
     cursor: pointer;
 }
 
@@ -659,22 +653,22 @@ margin-top: 44px;
 }
 
 .goods-price-mini {
-    font-size: 2.1rem;
+    font-size: 1.57rem;
     font-weight: bold;
 }
 
 /* Подвал */
 .footer {
-    margin-top: 66px;
+    margin-top: 42px;
 }
   
 .footer-list {
     display: flex;
-    padding-top: 31px;
-    padding-bottom: 31px;
     justify-content: center;
     background-color: #f4f7f6;
-    gap: 23px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    gap: 30px;
 }
   
 .footer-link {
@@ -700,22 +694,22 @@ margin-top: 44px;
   
 .copyright {
     display: flex;
+    justify-content: center;
+    margin-top: 50px;
     margin-bottom: 41px;
     font-size: 1.2rem;
-    justify-content: center;
-    margin-top: 70px;
     font-weight: bold;
     color: #999999;
 }
 
-/* POP-UP */
+/* Pop-up */
 .btn {
     display: block;
     box-sizing: border-box;
-    background-color: #b59f5b;
-    font-size: 1.4rem;
     width: 100%;
     border: none;
+    background-color: #b59f5b;
+    font-size: 1.4rem;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
@@ -726,7 +720,11 @@ margin-top: 44px;
 }
 
 .btn:hover {
-    background-color: #323232; 
+    background-color: #323232;
+}
+
+.popup-state {
+    display: none;
 }
 
 .popup {
@@ -740,7 +738,7 @@ margin-top: 44px;
     z-index: 3;
 }
 
-.popup-content {
+.popup__content {
     position: relative;
     margin: auto;
     background: #fff;
@@ -748,7 +746,7 @@ margin-top: 44px;
     padding: 35px 20px;
 }
 
-.popup-close {
+.popup__close {
     position: absolute;
     right: 0;
     top: -22px;
@@ -760,12 +758,16 @@ margin-top: 44px;
     align-items: center;
     box-sizing: border-box;
 }
+  
+.popup-state:checked + .popup {
+    display: flex;
+}
 
 .form-group {
     margin-top: 20px;
 }
 
-.popup-select {
+.popup__select {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -835,43 +837,25 @@ margin-top: 44px;
     width: 100%;
     min-height: 100px;
     max-height: 200px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
     border: none;
     color: #939594;
     background-color: #f4f7f6;
     font-size: 1.3rem;
-    box-sizing: border-box;
-    padding: 10px;
-    margin: 0;
     -moz-appearance: none;
     -webkit-appearance: none;
     resize: none;
 }
 
-/* ЛАНДШАФТ */
-@media (orientation: landscape) and (max-width: 640px) {
-    .trends {
-        flex-wrap: wrap;
-        max-height: 467px;
-    }
-
-    .trends-item {
-        width: calc(100% / 2 - 34px);
-        min-width: 165px;
-    }
-
-    .card-content {
-        line-height: 2.5rem;
-    }
-}
-
-/* ПЛАНШЕТ */
-@media (min-width: 768px) {
+@media (min-width: 641px) and (max-width: 1199px) {
     .header {
         width: 100%;
         background-image: url("/mq-diplom/images/banner-bg-tablet.jpg");
         background-repeat: no-repeat;
-        background-color: #000;
         background-position: center center;
+        background-color: #000;
         background-size: cover;
         position: relative;
     }
@@ -891,8 +875,8 @@ margin-top: 44px;
 
     .menu {
         display: flex;
-        justify-content: space-between;
         flex-direction: row-reverse;
+        justify-content: space-between;
         align-items: center;
     }
 
@@ -901,17 +885,17 @@ margin-top: 44px;
         margin: 0;
     }
 
-    .logo-img {
+    .logo_img {
         display: block;
         width: 158px;
         padding: 0;
     }
 
     .header-title {
-        line-height: 1.38;
-        text-align: center;
         font-size: 4rem;
         max-width: 640px;
+        line-height: 1.38;
+        text-align: center;
         margin: auto;
         padding: 90px 0 110px;
     } 
@@ -926,18 +910,21 @@ margin-top: 44px;
     }
 
     .trends {
-        max-height: 495px;
+        display: flex;
+        gap: 3px;
+        margin-top: 20px;
         flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .trends-item {
         min-height: 213px;
-        width: calc(100% / 2 - 35px);
+        width: calc((100% - 3px) / 2);
     }
 
     .card-content {
-        line-height: 1.29;
         font-size: 1.7rem;
+        line-height: 1.29;
     }
 
     .title-new-posts {
@@ -951,7 +938,7 @@ margin-top: 44px;
 
     .post-title {
         font-size: 1.7rem;
-        line-height: 1.31;
+        line-height: 1.29;
     }
 
     .post-text > p {
@@ -960,8 +947,8 @@ margin-top: 44px;
 
     .left-column {
         width: 273px;
-        flex-shrink: 0;
         margin-top: 0;
+        flex-shrink: 0;
     }
 
     .all-posts {
@@ -987,8 +974,8 @@ margin-top: 44px;
     .goods-list {
         display: flex;
         flex-wrap: wrap;
-        gap: 15px;
         justify-content: space-between;
+        gap: 23px;
         margin-top: 30px;
     }
 
@@ -1003,55 +990,32 @@ margin-top: 44px;
         flex-grow: 1;
     }
 
-    .popup-content {
+    .popup__content {
         max-width: 260px;
     }
 }
 
-/* ЛАНДШАФТ > 641px */
-@media (min-width: 641px) and (orientation: landscape) {
-    .trends {
-        flex-direction: row;
-    }
-
-    .trends-item {
-        width: calc(100% / 4 - 36px);
-
-    }
-
-    .card-item {
-        font-size: 1rem;
-    }
-
-    .card-content {
-        font-size: 1.4rem;
-    }
-
-    .card-trends {
-        padding: 15px 10px;
-    }
-}
-
-/* "ДЕСКТОП" */
 @media (min-width: 1200px) {
     .header-wrap {
-        padding-left: 17px;
-        padding-right: 15px;
         max-width: 1200px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .header {
         width: 100%;
         background-image: url("/mq-diplom/images/banner-bg.jpg");
         background-repeat: no-repeat;
-        background-position: top center;
+        background-position: center center;
         background-color: #000;
         background-size: cover;
         position: relative;
     }
 
     .menu {
-        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .burger-menu {
@@ -1060,33 +1024,33 @@ margin-top: 44px;
 
     .menu-list {
         display: flex;
-        gap: 35px;
+        gap: 36px;
     }
 
-    .menu-link {  
-        text-transform: uppercase;
+    .menu-link {
         color: #fff;
-        font-size: 13px;
+        font-size: 13px;  
+        text-transform: uppercase;
     }
       
-    .logo-img {
+    .logo_img {
         display: block;
         width: 180px;
     }
 
     .header-title {
         font-size: 4.5rem;
+        max-width: 725px;
         line-height: 1.67;
         text-align: center;
-        max-width: 725px;
         margin: auto;
-        padding: 103px 0 125px;
+        padding: 100px 0 125px;
     } 
 
-    /* СЕЙЧАС В ТРЕНДЕ */
+    /* блок в тренде */
 
     .trend-cards {
-        margin-top: 59px;
+        margin-top: 63px;
         margin-bottom: 66px;
     }
 
@@ -1095,14 +1059,15 @@ margin-top: 44px;
     }
 
     .trends {
+        max-width: 100%;
+        gap: 4px;
         flex-direction: row;
-        min-height: 280px;
     }
 
     .trends-item {
         padding: 20px;
-        height: 280px;
-        width: calc(100% / 4 - 43px);
+        min-height: 280px;
+        width: calc((100% - 9px) / 4);
     }
     
     .trends-link {
@@ -1114,17 +1079,10 @@ margin-top: 44px;
         line-height: 1.2;
     }
 
-    .card-item {
-        font-size: 1.2rem;
-    }
-
-    .card-trends {
-        padding: 33px 28px;
-    }
-
     /* блок статей */
     .posts-wrap {
-        gap: 125px;
+        display: flex;
+        gap: 4%;
     }
 
     .post {
@@ -1136,16 +1094,16 @@ margin-top: 44px;
     }
 
     .post-title {
-        margin-bottom: 30px;
         font-size: 2rem;
+        margin-bottom: 30px;
     }
     
     .post:not(:last-child) {
-        margin-bottom: 61px;
+        margin-bottom: 60px;
     }
 
     .date-content {
-        margin-bottom: 45px;
+        margin-bottom: 50px;
     }
       
     .post-image {
@@ -1170,35 +1128,78 @@ margin-top: 44px;
         flex-wrap: nowrap;
     }
 
-    /* КОЛОНКА СЛЕВА */
+    /* блок aside */
 
-    .left-column {
-        width: 273px;
-    }
+   /* .left-column {
+        width: 275px;
+    }*/
 
     .new-post-container {
         margin-top: 30px;
     }
 
     .sidebar-newsletter-container:nth-child(n+2) {
-        margin-top: 62px;
+        margin-top: 60px;
     }
 
     .categores-list-item:nth-child(n+2) {
         margin-top: 19px;
     }
 
-    /* ТОВАРЫ */
+    /* блок наши изделия */
     .products {
-        margin-top: 62px;      
+        margin-top: 67px;      
     }
 
     .title-products{
         font-size: 2rem;
     }
 
-    .good-title {
-        font-size: 2rem;
+    .goods-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 23px;
+        margin-top: 30px;
+    }
+
+    .goods {
+        width: calc((100% - 46px) / 3);
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    .good-card {
+        flex-grow: 1;
     }
 }
 
+@media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+    .trends {
+        max-width: 100%;
+        gap: 3px;
+        flex-direction: row;
+    }
+
+    .trends-item {
+        padding: 20px;
+        min-height: 280px;
+        width: calc((100% - 9px) / 4);
+    }
+}
+
+@media (max-width: 640px) and (orientation: landscape) {
+    .trends {
+        display: flex;
+        gap: 3px;
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .trends-item {
+        min-height: 213px;
+        width: calc((100% - 3px) / 2);
+    }
+}
