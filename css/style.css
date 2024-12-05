@@ -187,7 +187,7 @@ a {
     border: 3px solid #b59f5b;
     position: relative;
     z-index: 2;
-    padding: 32px 30px 31px 31px;
+    padding: 34px 31px 33px 32px;
 }
 
 .trend-garden {
@@ -1058,8 +1058,8 @@ margin-top: 44px;
 @media (min-width: 1200px) {
     .header-wrap {
         max-width: 1200px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .header {
@@ -1105,7 +1105,7 @@ margin-top: 44px;
         line-height: 1.67;
         text-align: center;
         margin: auto;
-        padding: 102px 0 125px;
+        padding: 106px 0 125px;
     } 
 
     /* блок в тренде */
@@ -1127,12 +1127,12 @@ margin-top: 44px;
 
     .trends-item {
         padding: 15px 21px;
-        min-height: 315px;
-        width: calc((100% - 9px) / 4);
+        min-height: 320px;
+        width: calc((100% - 12px) / 4);
     }
     
     .trends-link {
-        margin-bottom: 10px;
+        margin-bottom: 6px;
     }
 
     .card-content {
@@ -1155,7 +1155,7 @@ margin-top: 44px;
     }
 
     .post-container {
-        margin-left: 26px;
+        margin-left: 31px;
     }
 
     .post-title {
@@ -1164,11 +1164,11 @@ margin-top: 44px;
     }
     
     .post:not(:last-child) {
-        margin-bottom: 57px;
+        margin-bottom: 61px;
     }
 
     .date-content {
-        margin-bottom: 45px;
+        margin-bottom: 48px;
     }
       
     .post-image {
@@ -1196,26 +1196,30 @@ margin-top: 44px;
     /* блок aside */
 
     .left-column {
-        width: 272px;
-        margin-top: -4px;
+        width: 273px;
+        margin-top: -2px;
         flex-shrink: 0;
     }
 
     .new-post-container {
-        margin-top: 27px;
+        margin-top: 29px;
     }
 
     .sidebar-newsletter-container:nth-child(n+2) {
-        margin-top: 60px;
+        margin-top: 61px;
     }
 
     .categores-list-item:nth-child(n+2) {
         margin-top: 17px;
     }
 
+    .form-content-group {
+    	margin-top: 66px;
+    }
+
     /* блок наши изделия */
     .products {
-        margin-top: 57px;      
+        margin-top: 63px;      
     }
 
     .title-products{
