@@ -863,8 +863,8 @@ margin-top: 44px;
     .header-wrap {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 33px;
-        padding-right: 37px;
+        padding-left: 35px;
+        padding-right: 35px;
         box-sizing: border-box;
     }
 
@@ -938,7 +938,7 @@ margin-top: 44px;
 
     .posts-wrap {
         display: flex;
-        gap: 4%;
+        gap: 5%;
     }
 
     .post-container {
@@ -946,7 +946,7 @@ margin-top: 44px;
     }
 
     .post:not(:last-child) {
-        margin-bottom: 39px;
+        margin-bottom: 41px;
     }
 
     .trends-link {
@@ -954,21 +954,21 @@ margin-top: 44px;
     }
 
     .post-title {
-        font-size: 1.71rem;
+        font-size: 1.68rem;
         line-height: 1.29;
-	margin-bottom: 33px;
+	margin-bottom: 30px;
     }
 
     .post-text > p {
-        font-size: 1.54rem;
+        font-size: 1.499rem;
     }
 
     .post-text > p:last-child {
-        padding-bottom: 22px; 
+        padding-bottom: 21px; 
     }
 
     .post-categories {
-        margin-bottom: 13px;
+        margin-bottom: 12px;
     }
 
     .date-content {
