@@ -396,7 +396,7 @@ margin-top: 42px;
     font-weight: bold;
 }
 
-/* Формочки */
+/* Формы */
 
 .sidebar-newsletter-container:nth-child(n+2) {
     margin-top: 44px;
@@ -709,7 +709,7 @@ margin-top: 42px;
     display: none;
 }
 
-.popup_hiden {
+.popup_hidden {
     display: none;
     position: fixed;
     width: 100%;
@@ -1217,7 +1217,7 @@ margin-top: 42px;
     	margin-top: 66px;
     }
 
-    /* блок наши изделия */
+    /* блок товары */
     .products {
         margin-top: 63px;      
     }
