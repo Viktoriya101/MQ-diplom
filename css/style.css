@@ -864,12 +864,12 @@ margin-top: 44px;
         margin-left: auto;
         margin-right: auto;
         padding-left: 32px;
-        padding-right: 34px;
+        padding-right: 35px;
         box-sizing: border-box;
     }
 
     .header-container {
-        padding-top: 43px;
+        padding-top: 45px;
         box-sizing: border-box;
     }
 
@@ -897,7 +897,7 @@ margin-top: 44px;
         line-height: 1.36;
         text-align: center;
         margin: auto;
-        padding: 86px 0 110px;
+        padding: 89px 0 115px;
     } 
 
     .trend-cards {
@@ -912,19 +912,19 @@ margin-top: 44px;
     .trends {
         display: flex;
         gap: 3px;
-        margin-top: 22px;
+        margin-top: 21px;
         flex-wrap: wrap;
         flex-direction: row;
     }
 
     .trends-item {
-        min-height: 241px;
+        min-height: 247px;
         width: calc((100% - 3px) / 2);
-	padding: 18px;
+	padding: 20px 18px 16px 20px;
     }
 
     .card-trends {
-	padding: 32px 31px 25px 31px;
+	padding: 32px 30px 29px 32px;
      }
 	
     .card-content {
