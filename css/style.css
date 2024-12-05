@@ -987,14 +987,16 @@ margin-top: 44px;
 
     .products {
         font-size: 1.8rem;
+	margin-top: 46px;
     }
 
     .good-title {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
 
     .goods-content{
         font-size: 1.5rem;
+	line-height: 1.5;
     }
 
     .goods-list {
@@ -1014,6 +1016,12 @@ margin-top: 44px;
 
     .good-card {
         flex-grow: 1;
+	margin-top: -38px;
+	padding: 48px 21px 26px 18px;
+    }
+
+    .goods-object {
+        height: 98%;
     }
 
     .popup__content {
