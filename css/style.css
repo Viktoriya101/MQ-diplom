@@ -706,10 +706,10 @@ margin-top: 44px;
 .btn {
     display: block;
     box-sizing: border-box;
-    width: 100%;
-    border: none;
     background-color: #b59f5b;
     font-size: 1.4rem;
+    width: 100%;
+    border: none;
     text-transform: uppercase;
     color: #fff;
     font-weight: bold;
@@ -720,11 +720,7 @@ margin-top: 44px;
 }
 
 .btn:hover {
-    background-color: #323232;
-}
-
-.popup-state {
-    display: none;
+    background-color: #323232; 
 }
 
 .popup {
@@ -738,7 +734,7 @@ margin-top: 44px;
     z-index: 3;
 }
 
-.popup__content {
+.popup-content {
     position: relative;
     margin: auto;
     background: #fff;
@@ -746,7 +742,7 @@ margin-top: 44px;
     padding: 35px 20px;
 }
 
-.popup__close {
+.popup-close {
     position: absolute;
     right: 0;
     top: -22px;
@@ -758,16 +754,12 @@ margin-top: 44px;
     align-items: center;
     box-sizing: border-box;
 }
-  
-.popup-state:checked + .popup {
-    display: flex;
-}
 
 .form-group {
     margin-top: 20px;
 }
 
-.popup__select {
+.popup-select {
     display: block;
     box-sizing: border-box;
     width: 100%;
@@ -780,7 +772,7 @@ margin-top: 44px;
     font-size: 1.3rem;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url("/mq-diplom/svg/form-arrows.svg");
+    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 1.3rem;
@@ -798,7 +790,7 @@ margin-top: 44px;
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url("/mq-diplom/svg/form-empty-circle.svg");
+	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-empty-circle.svg");
 	background-repeat: no-repeat;
 	background-position: center  center;
 	background-size: 25px;
@@ -823,7 +815,7 @@ margin-top: 44px;
 }
 
 .radio:checked ~ .radio-group-text::before {
-	background-image: url("/mq-diplom/svg/form-circle.svg");
+	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-circle.svg");
 }
 
 .radio {
@@ -837,13 +829,13 @@ margin-top: 44px;
     width: 100%;
     min-height: 100px;
     max-height: 200px;
-    box-sizing: border-box;
-    padding: 10px;
-    margin: 0;
     border: none;
     color: #939594;
     background-color: #f4f7f6;
     font-size: 1.3rem;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 0;
     -moz-appearance: none;
     -webkit-appearance: none;
     resize: none;
