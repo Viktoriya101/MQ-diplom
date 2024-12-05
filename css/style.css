@@ -902,7 +902,7 @@ margin-top: 44px;
 
     .trend-cards {
         margin-top: 50px;
-        margin-bottom: 50px;
+        margin-bottom: 48px;
     }
 
     .trend-head {
@@ -941,19 +941,36 @@ margin-top: 44px;
         gap: 4%;
     }
 
+    .post:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
     .trends-link {
-    margin-bottom: 5px;
+        margin-bottom: 5px;
     }
 
     .post-title {
-        font-size: 1.7rem;
+        font-size: 1.65rem;
         line-height: 1.29;
+	margin-bottom: 28px;
     }
 
     .post-text > p {
-        font-size: 1.5rem;
+        font-size: 1.478rem;
     }
 
+    .post-text > p:last-child {
+        padding-bottom: 20px; 
+    }
+
+    .post-categories {
+        margin-bottom: 9px;
+    }
+
+    .date-content {
+        margin-bottom: 30px;
+    }
+	
     .left-column {
         width: 273px;
         margin-top: 0;
