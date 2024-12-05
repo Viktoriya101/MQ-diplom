@@ -901,8 +901,8 @@ margin-top: 44px;
     } 
 
     .trend-cards {
-        margin-top: 50px;
-        margin-bottom: 48px;
+        margin-top: 43px;
+        margin-bottom: 47px;
     }
 
     .trend-head {
@@ -912,7 +912,7 @@ margin-top: 44px;
     .trends {
         display: flex;
         gap: 3px;
-        margin-top: 18px;
+        margin-top: 22px;
         flex-wrap: wrap;
         flex-direction: row;
     }
