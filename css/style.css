@@ -772,7 +772,7 @@ margin-top: 44px;
     font-size: 1.3rem;
     -moz-appearance: none;
     -webkit-appearance: none;
-    background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-arrows.svg");
+    background-image: url("/mq-diplom/svg/form-arrows.svg");
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 1.3rem;
@@ -790,7 +790,7 @@ margin-top: 44px;
 	display: inline-block;
 	width: 25px;
 	height: 25px;
-	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-empty-circle.svg");
+	background-image: url("/mq-diplom/svg/form-empty-circle.svg");
 	background-repeat: no-repeat;
 	background-position: center  center;
 	background-size: 25px;
@@ -815,7 +815,7 @@ margin-top: 44px;
 }
 
 .radio:checked ~ .radio-group-text::before {
-	background-image: url("file:///C:/Users/F15%20FX507ZU4-LP040/Desktop/mq-diplom/svg/form-circle.svg");
+	background-image: url("/mq-diplom/svg/form-circle.svg");
 }
 
 .radio {
