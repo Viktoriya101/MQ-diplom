@@ -863,13 +863,13 @@ margin-top: 44px;
     .header-wrap {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 35px;
-        padding-right: 35px;
+        padding-left: 32px;
+        padding-right: 40px;
         box-sizing: border-box;
     }
 
     .header-container {
-        padding-top: 30px;
+        padding-top: 43px;
         box-sizing: border-box;
     }
 
@@ -892,12 +892,12 @@ margin-top: 44px;
     }
 
     .header-title {
-        font-size: 4rem;
+        font-size: 3.93rem;
         max-width: 640px;
-        line-height: 1.38;
+        line-height: 1.36;
         text-align: center;
         margin: auto;
-        padding: 90px 0 110px;
+        padding: 86px 0 110px;
     } 
 
     .trend-cards {
@@ -906,22 +906,27 @@ margin-top: 44px;
     }
 
     .trend-head {
-        font-size: 1.8rem;
+        font-size: 1.78rem;
     }
 
     .trends {
         display: flex;
         gap: 3px;
-        margin-top: 20px;
+        margin-top: 18px;
         flex-wrap: wrap;
         flex-direction: row;
     }
 
     .trends-item {
-        min-height: 213px;
+        min-height: 241px;
         width: calc((100% - 3px) / 2);
+	padding: 18px;
     }
 
+    .card-trends {
+	padding: 32px 31px 25px 31px;
+     }
+	
     .card-content {
         font-size: 1.7rem;
         line-height: 1.29;
@@ -934,6 +939,10 @@ margin-top: 44px;
     .posts-wrap {
         display: flex;
         gap: 4%;
+    }
+
+    .trends-link {
+    margin-bottom: 5px;
     }
 
     .post-title {
