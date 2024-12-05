@@ -941,6 +941,10 @@ margin-top: 44px;
         gap: 4%;
     }
 
+    .post-container {
+        margin-top: 17px;
+    }
+
     .post:not(:last-child) {
         margin-bottom: 40px;
     }
@@ -960,7 +964,7 @@ margin-top: 44px;
     }
 
     .post-text > p:last-child {
-        padding-bottom: 20px; 
+        padding-bottom: 21px; 
     }
 
     .post-categories {
@@ -968,7 +972,7 @@ margin-top: 44px;
     }
 
     .date-content {
-        margin-bottom: 30px;
+        margin-bottom: 32px;
     }
 	
     .left-column {
@@ -987,7 +991,7 @@ margin-top: 44px;
 
     .products {
         font-size: 1.8rem;
-	margin-top: 46px;
+	margin-top: 44px;
     }
 
     .good-title {
@@ -1016,8 +1020,8 @@ margin-top: 44px;
 
     .good-card {
         flex-grow: 1;
-	margin-top: -38px;
-	padding: 48px 21px 26px 18px;
+	margin-top: -36px;
+	padding: 48px 21px 24px 18px;
     }
 
     .goods-object {
