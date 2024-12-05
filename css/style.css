@@ -486,7 +486,7 @@ margin-top: 44px;
     margin-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 4px;
 }
 
 .tags-list-item {
@@ -499,7 +499,7 @@ margin-top: 44px;
 .tags-link-tag-links {
     display: block;
     border: 3px solid #eeeeee;
-    padding: 5px 13px;
+    padding: 5px 14px;
 }
 
 .tags-link-tag-links:hover {
@@ -536,7 +536,7 @@ margin-top: 44px;
 .categores-index {
     display: inline-block;
     vertical-align: super;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #b59f5b;
     line-height: 1;
 }
@@ -1099,7 +1099,7 @@ margin-top: 44px;
 
     .post-title {
         font-size: 2rem;
-        margin-bottom: 30px;
+        margin-bottom: 27px;
     }
     
     .post:not(:last-child) {
@@ -1149,12 +1149,12 @@ margin-top: 44px;
     }
 
     .categores-list-item:nth-child(n+2) {
-        margin-top: 19px;
+        margin-top: 16px;
     }
 
     /* блок наши изделия */
     .products {
-        margin-top: 67px;      
+        margin-top: 56px;      
     }
 
     .title-products{
