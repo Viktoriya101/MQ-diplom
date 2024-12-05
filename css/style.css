@@ -1078,6 +1078,10 @@ margin-top: 42px;
         position: relative;
     }
 
+    .header-container {
+        padding-top: 26px;
+    }
+
     .menu {
         display: flex;
         justify-content: space-between;
@@ -1214,11 +1218,11 @@ margin-top: 42px;
     }
 
     .new-post-container {
-        margin-top: 29px;
+        margin-top: 24px;
     }
 
     .sidebar-newsletter-container:nth-child(n+2) {
-        margin-top: 61px;
+        margin-top: 58px;
     }
 
     .categores-list-item:nth-child(n+2) {
@@ -1255,6 +1259,25 @@ margin-top: 42px;
 
     .good-card {
         flex-grow: 1;
+	padding: 45px 23px 24px 17px;
+    }
+
+    .good-title {
+	font-size: 2rem;
+    }
+
+    .in-shop {
+        width: 46%;
+    }
+
+    .footer {
+        margin-top: 69px;
+    }
+
+    .copyright {
+        margin-top: 71px;
+        margin-bottom: 75px;
+        font-size: 1.2rem;
     }
 }
 
