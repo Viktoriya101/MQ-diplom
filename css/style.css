@@ -1084,6 +1084,10 @@ margin-top: 44px;
         display: flex;
         gap: 4%;
     }
+
+    .all-post {
+	flex-grow: 1;
+    }
 	
     .post {
         display: flex;
@@ -1131,9 +1135,9 @@ margin-top: 44px;
     /* блок aside */
 
     .left-column {
-        width: 275px;
-	margin-top: 0;
-	
+        width: 272px;
+        margin-top: -4px;
+        flex-shrink: 0;
     }
 
     .new-post-container {
