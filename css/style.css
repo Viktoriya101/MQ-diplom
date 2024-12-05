@@ -992,7 +992,11 @@ margin-top: 42px;
     }
 
     .sidebar-newsletter-container:nth-child(n+2) {
-        margin-top: 61px;
+        margin-top: 59px;
+    }
+
+	.categores-list {
+    margin-top: 7px;
     }
 
     .categores-list-item {
