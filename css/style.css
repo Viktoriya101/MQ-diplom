@@ -1279,6 +1279,12 @@ margin-top: 42px;
         margin-bottom: 75px;
         font-size: 1.2rem;
     }
+
+    .popup__content {
+    width: 390px;
+    padding: 54px 32px;
+    height: 585px;
+    }
 }
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
