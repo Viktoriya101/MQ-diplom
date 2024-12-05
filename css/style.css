@@ -1239,7 +1239,8 @@ margin-top: 42px;
 
     .good-card {
         flex-grow: 1;
-	padding: 45px 23px 24px 17px;
+	padding: 42px 23px 29px 17px;
+	margin-top: -58px;
     }
 
     .good-title {
@@ -1301,8 +1302,26 @@ margin-top: 42px;
 
     .trends-item {
         padding: 20px;
-        min-height: 280px;
+        min-height: 180px;
         width: calc((100% - 9px) / 4);
+    }
+
+    .card-trends {
+        padding: 15px;
+    }
+
+    .card-content {
+        font-size: 1.1rem;
+    }
+
+    .card-item {
+        font-size: 1rem;
+    }
+
+    .trends-link {
+        gap: 5px;
+        margin-bottom: 6px;
+        flex-wrap: wrap;
     }
 }
 
