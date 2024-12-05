@@ -863,8 +863,8 @@ margin-top: 44px;
     .header-wrap {
         margin-left: auto;
         margin-right: auto;
-        padding-left: 32px;
-        padding-right: 35px;
+        padding-left: 33px;
+        padding-right: 37px;
         box-sizing: border-box;
     }
 
@@ -902,7 +902,7 @@ margin-top: 44px;
 
     .trend-cards {
         margin-top: 43px;
-        margin-bottom: 47px;
+        margin-bottom: 48px;
     }
 
     .trend-head {
@@ -942,11 +942,11 @@ margin-top: 44px;
     }
 
     .post-container {
-        margin-top: 17px;
+        margin-top: 18px;
     }
 
     .post:not(:last-child) {
-        margin-bottom: 40px;
+        margin-bottom: 39px;
     }
 
     .trends-link {
@@ -954,25 +954,25 @@ margin-top: 44px;
     }
 
     .post-title {
-        font-size: 1.65rem;
+        font-size: 1.71rem;
         line-height: 1.29;
-	margin-bottom: 28px;
+	margin-bottom: 33px;
     }
 
     .post-text > p {
-        font-size: 1.478rem;
+        font-size: 1.54rem;
     }
 
     .post-text > p:last-child {
-        padding-bottom: 21px; 
+        padding-bottom: 22px; 
     }
 
     .post-categories {
-        margin-bottom: 9px;
+        margin-bottom: 13px;
     }
 
     .date-content {
-        margin-bottom: 32px;
+        margin-bottom: 31px;
     }
 	
     .left-column {
