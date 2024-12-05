@@ -1342,4 +1342,21 @@ margin-top: 42px;
         min-height: 213px;
         width: calc((100% - 3px) / 2);
     }
+
+    .card-trends {
+        padding: 15px;
+    }
+
+    .card-item {
+        font-size: 1rem;
+    }
+
+    .trends-link {
+    gap: 12px;
+    flex-direction: row;
+    }
+
+    .card-content {
+       font-size: 1.1rem;
+    }
 }
