@@ -580,22 +580,23 @@ margin-top: 44px;
 .goods-object {
     display: block;
     width: 100%;
+    height: 87%;
 }
 
 .good-card {
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    margin-top: -35px;
+    margin-top: -62px;
     margin-left: auto;
     margin-right: auto;
-    padding: 52px 21px 26px 20px;
+    padding: 48px 21px 27px 18px;
     border: 3px solid #b59f5b;
 }
 
 .good-title {
     text-transform: uppercase;
-    font-size: 1.6rem;
+    font-size: 2rem;
     color: #0f0d0e;
     font-weight: bold;
 }
@@ -611,7 +612,7 @@ margin-top: 44px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 24px;
 }
 
 .goods-link {
@@ -624,7 +625,7 @@ margin-top: 44px;
 }
 
 .in-shop {
-    width: 50%;
+    width: 46%;
     border: none;
     background-color: #b59f5b;
     font-size: 1.4rem;
@@ -652,13 +653,13 @@ margin-top: 44px;
 }
 
 .goods-price-mini {
-    font-size: 1.57rem;
+    font-size: 2.1rem;
     font-weight: bold;
 }
 
 /* Подвал */
 .footer {
-    margin-top: 42px;
+    margin-top: 61px;
 }
   
 .footer-list {
@@ -666,7 +667,7 @@ margin-top: 44px;
     justify-content: center;
     background-color: #f4f7f6;
     padding-top: 31px;
-    padding-bottom: 31px;
+    padding-bottom: 26px;
     gap: 30px;
 }
   
@@ -694,7 +695,7 @@ margin-top: 44px;
 .copyright {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 75px;
     margin-bottom: 41px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -1170,7 +1171,7 @@ margin-top: 44px;
     }
 
     .goods {
-        width: calc((100% - 46px) / 3);
+        width: calc((100% - 130px) / 3);
         display: flex;
         flex-direction: column;
         margin-top: 0;
