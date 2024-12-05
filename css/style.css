@@ -968,7 +968,7 @@ margin-top: 44px;
     }
 
     .post-categories {
-        margin-bottom: 12px;
+        margin-bottom: 11px;
     }
 
     .date-content {
@@ -985,13 +985,25 @@ margin-top: 44px;
         flex-grow: 1;
     }
 
+    .new-post-wrap {
+        margin-top: 23px;
+    }
+
+    .sidebar-newsletter-container:nth-child(n+2) {
+        margin-top: 61px;
+    }
+
+    .categores-list-item {
+        padding-bottom: 17px;
+    }
+	
     .title-products {
         font-size: 1.8rem;
     }
 
     .products {
         font-size: 1.8rem;
-	margin-top: 44px;
+	margin-top: 51px;
     }
 
     .good-title {
@@ -1021,7 +1033,7 @@ margin-top: 44px;
     .good-card {
         flex-grow: 1;
 	margin-top: -36px;
-	padding: 48px 21px 24px 18px;
+	padding: 49px 21px 29px 18px;
     }
 
     .goods-object {
@@ -1030,6 +1042,16 @@ margin-top: 44px;
 
     .popup__content {
         max-width: 260px;
+    }
+	
+    .footer {
+        margin-top: 45px;
+    }
+
+    .copyright {
+    	margin-bottom: 44px;
+	margin-top: 48px;
+        font-size: 1.2rem;
     }
 }
 
