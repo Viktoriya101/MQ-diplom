@@ -104,6 +104,8 @@ a {
     display: block;
     width: 82%;
     margin: auto;
+    padding-top: 174px;
+    padding-bottom: 34px;
 }
 
 .header-title {
@@ -115,17 +117,17 @@ a {
     text-transform: uppercase;
     font-family: inherit;
     font-weight: bold;
-    padding-bottom: 208px;
+    padding-bottom: 211px;
     margin: auto;
 }
 
 /* Блок - Сейчас в тренде */
 
 .trend-cards {
-    margin-top: 40px;
+    margin-top: 39px;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 40px;
+    margin-bottom: 42px;
 }
 
 .trend-head {
@@ -153,15 +155,15 @@ a {
 
 .trends {
     display: flex;
-    margin-top: 28px;
+    margin-top: 24px;
     gap: 3px;
     width: 100%;
     flex-direction: column;
 }
 
 .trends-item {
-    padding: 16px;
-    min-height: 200px;
+    padding: 15px;
+    min-height: 231px;
     display: flex;
     flex-direction: column;
     justify-content: end;
@@ -187,7 +189,7 @@ a {
     border: 3px solid #b59f5b;
     position: relative;
     z-index: 2;
-    padding: 34px 31px 33px 32px;
+    padding: 31px 26px 28px 19px;
 }
 
 .trend-garden {
@@ -225,7 +227,7 @@ a {
 .trends-link {
     display: flex;
     gap: 20px;
-    margin-bottom: 13px;
+    margin-bottom: 6px;
 }
 
 .card-item {
@@ -237,10 +239,10 @@ a {
 
 .card-content {
     font-weight: bold;
-    font-size: 1.6rem;
+    font-size: 1.63rem;
     text-transform: uppercase;
     color: #fff;
-    line-height: 1.7rem;
+    line-height: 1.9rem;
 }
 
 /* Основной контент */
@@ -256,7 +258,7 @@ a {
 }
 
 .post:not(:last-child) {
-    margin-bottom: 33px;
+    margin-bottom: 32px;
 }
 
 .post-image {
@@ -265,12 +267,12 @@ a {
 }
 
 .post-container {
-    margin-top: 17px;
+    margin-top: 16px;
 }
 
 .post-categories {
     display: flex;
-    margin-bottom: 7px;
+    margin-bottom: 12px;
     gap: 18px;
     line-height: 1;
 }
@@ -292,7 +294,7 @@ a {
     font-size: 1.6rem;
     line-height: 1.2;
     text-transform: uppercase;
-    margin-bottom: 24px;
+    margin-bottom: 18px;
     font-weight: bold;
 }
 
@@ -304,7 +306,7 @@ a {
     display: flex;
     align-items: center;
     gap: 11px;
-    margin-bottom: 20px;
+    margin-bottom: 13px;
 }
 
 .post-date {
@@ -322,7 +324,7 @@ a {
 
 .post-text > p {
     margin-top: 0;
-    font-size: 1.4rem;
+    font-size: 1.41rem;
     line-height: 2rem;
 }
 
@@ -331,7 +333,7 @@ a {
 }
 
 .post-text > p:last-child {
-    padding-bottom: 25px;
+    padding-bottom: 20px;
     border-bottom: 3px solid #eeeeee; 
 }
 
