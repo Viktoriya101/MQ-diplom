@@ -704,7 +704,7 @@ margin-top: 44px;
 
 /* Pop-up */
 .popup_hiden {
-    display: flex;
+    display: none;
     position: absolute;
     width: 100%;
     height: 100%;
