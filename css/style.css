@@ -404,12 +404,12 @@ margin-top: 42px;
 
 .form-content {
     width: 100%;
-    min-height: 63px;
+    min-height: 47px;
 }
 
 .form-content-group {
     display: flex;
-    margin-top: 60px;
+    margin-top: 66px;
 }
 
 .search-button {
@@ -488,7 +488,7 @@ margin-top: 42px;
     margin-top: 22px;
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
+    gap: 5px;
 }
 
 .tags-list-item {
@@ -509,11 +509,11 @@ margin-top: 42px;
 }
 
 .categores-list {
-    margin-top: 23px;
+    margin-top: 22px;
 }
 
 .categores-list-item:nth-child(n+2) {
-    margin-top: 9px;
+    margin-top: 18px;
 }
 
 .categores-list-item {
@@ -545,7 +545,7 @@ margin-top: 42px;
 
 /* Наши изделия */
 .products {
-    margin-top: 44px;
+    margin-top: 48px;
 }
 
 .title-products {
@@ -589,16 +589,16 @@ margin-top: 42px;
     position: relative;
     width: 100%;
     box-sizing: border-box;
-    margin-top: -62px;
+    margin-top: -30px;
     margin-left: auto;
     margin-right: auto;
-    padding: 48px 21px 27px 18px;
+    padding: 47px 23px 25px 17px;
     border: 3px solid #b59f5b;
 }
 
 .good-title {
     text-transform: uppercase;
-    font-size: 2rem;
+    font-size: 1.7rem;
     color: #0f0d0e;
     font-weight: bold;
 }
@@ -627,7 +627,7 @@ margin-top: 42px;
 }
 
 .in-shop {
-    width: 46%;
+    width: 49%;
     border: none;
     background-color: #b59f5b;
     font-size: 1.4rem;
@@ -661,14 +661,14 @@ margin-top: 42px;
 
 /* Подвал */
 .footer {
-    margin-top: 61px;
+    margin-top: 43px;
 }
   
 .footer-list {
     display: flex;
     justify-content: center;
     background-color: #f4f7f6;
-    padding-top: 36px;
+    padding-top: 33px;
     padding-bottom: 28px;
     gap: 25px;
 }
@@ -697,8 +697,8 @@ margin-top: 42px;
 .copyright {
     display: flex;
     justify-content: center;
-    margin-top: 71px;
-    margin-bottom: 44px;
+    margin-top: 43px;
+    margin-bottom: 48px;
     font-size: 1.1rem;
     font-weight: bold;
     color: #999999;
