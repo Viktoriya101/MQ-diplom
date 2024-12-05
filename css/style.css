@@ -765,6 +765,10 @@ margin-top: 44px;
     margin-bottom: 5px;
 }
 
+.popup-state:checked + .popup_hiden {
+    display: none;
+}
+
 .radio-group-text::before {
 	content: "";
 	display: inline-block;
