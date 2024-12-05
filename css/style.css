@@ -1099,6 +1099,8 @@ margin-top: 42px;
     .logo_img {
         display: block;
         width: 180px;
+	padding-top: 0;
+        padding-bottom: 0;
     }
 
     .header-title {
@@ -1113,8 +1115,8 @@ margin-top: 42px;
     /* блок в тренде */
 
     .trend-cards {
-        margin-top: 55px;
-        margin-bottom: 66px;
+        margin-top: 60px;
+        margin-bottom: 64px;
     }
 
     .trend-head {
@@ -1128,13 +1130,17 @@ margin-top: 42px;
     }
 
     .trends-item {
-        padding: 15px 21px;
+        padding: 18px 20px;
         min-height: 320px;
         width: calc((100% - 12px) / 4);
     }
     
     .trends-link {
         margin-bottom: 6px;
+    }
+
+    .card-trends {
+        padding: 36px 27px 28px 33px;
     }
 
     .card-content {
