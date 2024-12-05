@@ -420,41 +420,32 @@
     </div>
   </footer>
 
-<div class="popup_hiden">
-      <div class="popup-content">
-          <label for="popup_hiden" class="popup__close"><img class="popup__close-btn" src="svg/form-x.svg" alt="закрыть окно"></label>
-           <input type="checkbox" id="popup_hiden" class="popup-state">
-        <div class="popup-section">
-          <h2 class="title-new-posts">ваш фидбек</h2>
-          <form action="submit" class="popup-from">
-            <div class="form-group">
-              <label for="popup-select" class="form-hint">Как часто вы заходите на сайт?</label>
-              <select name="traffic" id="popup-select" class="popup-select">
-                <option value="everyday" selected>Почти каждый день</option>
-                <option value="twice_a_week">Два раза в неделю</option>
-                <option value="monthly">Раз в месяц</option>
-                <option value="monthly">Никогда раньше не заходил</option>
-              </select>
-            </div>
-            <div class="form-group">
-              <span class="form-hint">Вы подписаны на e-mail рассылку?</span>
-              <label class="radio-group">
-                <input type="radio" class="radio" name="radio-group">
-                <span class="radio-group-text">Да</span>
-              </label>
-              <label class="radio-group">
-                <input type="radio" class="radio" name="radio-group">
-                <span class="radio-group-text">Нет</span>
-              </label>	
-            </div>
-            <div class="form-group">
-              <label for="textarea" class="form-hint">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>       
-              <textarea id="textarea" class="textarea" placeholder="Может, больше рецептов?"></textarea>
-            </div>
-            <button type="submit" class="button-email form-content">отправить</button>
-          </form>
+ <div class="popup hidden">        
+        <div class="popup-box">
+            <button type="submit" class="close"><span class="popup-close">Кнопка закрытия окна</span></button>
+            <h3 class="popup-header">ваш фидбек</h3>
+            <form>
+                <p class="question">Как часто вы заходите на сайт?</p>
+                <select class="frequency">
+                    <option>Почти каждый день</option>
+                    <option>Раз в несколько дней</option>
+                    <option>Раз в несколько недель</option>
+                    <option>Несколько раз в год</option>
+                </select>
+                <p class="question">Вы подписаны на e-mail рассылку?</p>
+                <label>                
+                    <input type="radio" name="answer" class="radio">
+                    <span class="radio-text">Да</span>
+                </label>
+                <label>                
+                    <input type="radio" name="answer" class="radio">
+                    <span class="radio-text">Нет</span>
+                </label>
+                <p class="question">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</p>
+                <textarea type="text" class="content-answer" placeholder="Может, больше рецептов?"></textarea><br>
+                <button class="feedback-button" type="submit">отправить</button>
+            </form>
         </div>
-      </div>
     </div>
 </body>
 </html>
