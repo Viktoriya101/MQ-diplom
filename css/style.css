@@ -705,12 +705,16 @@ margin-top: 42px;
 }
 
 /* Pop-up */
+.popup_hidden {
+    display: none
+}
+
 .popup-state {
     display: none;
 }
 
-.popup_hidden {
-    display: none;
+.popup {
+    display: block;
     position: fixed;
     width: 100%;
     height: 100%;
