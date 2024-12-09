@@ -1034,8 +1034,35 @@ margin-top: 42px;
         height: 98%;
     }
 
-    .popup__content {
-        max-width: 260px;
+     .popup__content {
+        width: 390px;
+        padding: 46px 31px;
+        height: 585px;
+        box-sizing: border-box;
+    }
+
+    .form-group {
+        margin-top: 33px;
+    }
+
+    .form-hint {
+        font-size: 1.32rem;
+        margin-bottom: 2px;
+    }
+
+    .popup__select {
+        padding: 20px;
+    }
+
+    .radio-group-text::before {
+        width: 15px;
+        height: 15px;
+        background-size: 15px;
+    }
+
+    .textarea {
+        min-height: 140px;
+        padding: 21px;
     }
 	
     .footer {
